@@ -9,11 +9,14 @@
     :license: BSD, see LICENSE for more details.
     
 """
+import io
 import os
 import string
 import sys
 import codecs
 import base64
+
+import segno
 
 from itertools import chain
 if sys.version_info < (3,):
@@ -187,6 +190,16 @@ class BoletoHTML(object):
         valor_doc = self._formataValorParaExibir(boletoDados.valor_documento)
         tpl_data['valor_documento'] = valor_doc
 
+        valor_desconto = self._formataValorParaExibir(
+            boletoDados.valor_desconto
+        )
+        tpl_data['valor_desconto'] = valor_desconto
+
+        valor_cobrado = self._formataValorParaExibir(
+            boletoDados.valor_cobrado
+        )
+        tpl_data['valor_cobrado'] = valor_cobrado
+
         # Instruções
         tpl_data['instrucoes'] = ''
         for instrucao in boletoDados.instrucoes:
@@ -199,6 +212,21 @@ class BoletoHTML(object):
 
         # Código de barras
         tpl_data['barcode'] = self._codigoBarraI25(boletoDados.barcode)
+
+        # QR Code
+        tpl_data['qrcode_img'] = ''
+        qrcode_string = getattr(boletoDados, 'qrcode_string', None)
+        if qrcode_string:
+            qr = segno.make(qrcode_string)
+            buf = io.BytesIO()
+            qr.save(buf, kind='png', scale=8, border=4,
+                    dark='#000', light='#fff')
+            buf.seek(0)
+            qr_base64 = base64.b64encode(buf.read()).decode()
+            tpl_data['qrcode_img'] = (
+                '<img src="data:image/png;base64,{0}" '
+                'alt="QR Code" class="qrcode" />'.format(qr_base64)
+            )
 
         self.html += tpl.substitute(tpl_data)
 
