@@ -9,12 +9,15 @@
     :license: BSD, see LICENSE for more details.
 
 """
+import io
 import os
 
+import segno
 from reportlab.graphics.barcode.common import I2of5
 from reportlab.lib.colors import black
 from reportlab.lib.pagesizes import A4, landscape as pagesize_landscape
 from reportlab.lib.units import mm, cm
+from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen import canvas
 
@@ -528,6 +531,15 @@ class BoletoPDF(object):
             )
         self.pdf_canvas.setFont('Helvetica', self.font_size_title)
 
+        # QR Code (optional, e.g. for Pix)
+        if getattr(boleto_dados, 'qrcode_string', None):
+            qr_size = 4 * self.height_line
+            qr_x = self.width - (45 * mm) - qr_size - 5 * mm
+            qr_y = y - 3.5 * self.height_line
+            self._drawQRCode(
+                boleto_dados.qrcode_string, qr_x, qr_y, size=qr_size
+            )
+
         # Linha horizontal com primeiro campo Uso do Banco
         y += self.height_line
         self.__horizontalLine(0, y, self.width)
@@ -901,6 +913,16 @@ class BoletoPDF(object):
         bc.__init__(num, barWidth=thin_bar)
 
         bc.drawOn(self.pdf_canvas, x, y)
+
+    def _drawQRCode(self, qrcode_string, x, y, size=25*mm):
+        qr = segno.make(qrcode_string)
+        buf = io.BytesIO()
+        qr.save(buf, kind='png', scale=8, border=4,
+                dark='#000', light='#fff')
+        buf.seek(0)
+        img = ImageReader(buf)
+        self.pdf_canvas.drawImage(img, x, y, width=size, height=size)
+
 
 
 def load_image(logo_image):

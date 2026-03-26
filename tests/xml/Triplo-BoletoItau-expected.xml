@@ -1,234 +1,234 @@
 <pdf2xml>
-  <page height="892" left="0" number="1" position="absolute" top="0" width="1262">
-    <fontspec color="#000000" family="Helvetica" id="0" size="7" />
-    <fontspec color="#000000" family="Helvetica" id="1" size="11" />
-    <fontspec color="#000000" family="Helvetica" id="2" size="25" />
-    <fontspec color="#000000" family="Helvetica" id="3" size="15" />
-    <text font="0" height="8" left="651" top="770" width="196">Autentica&#231;&#227;o Mec&#226;nica / Ficha de Compensa&#231;&#227;o</text>
-    <text font="0" height="8" left="658" top="755" width="65">C&#243;digo de baixa</text>
-    <text font="0" height="8" left="38" top="755" width="73">Sacador / Avalista</text>
-    <text font="0" height="8" left="38" top="713" width="34">Pagador</text>
-    <text font="1" height="12" left="102" top="714" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="102" top="744" width="36"> -  -  - </text>
-    <text font="0" height="8" left="658" top="685" width="70">(=) Valor cobrado</text>
-    <text font="0" height="8" left="658" top="658" width="89">(+) Outros acr&#233;scimos</text>
-    <text font="0" height="8" left="658" top="630" width="59">(+) Mora/Multa</text>
-    <text font="0" height="8" left="658" top="603" width="80">(-) Outras dedu&#231;&#245;es</text>
-    <text font="0" height="8" left="658" top="575" width="107">(-) Descontos/Abatimentos</text>
-    <text font="0" height="8" left="38" top="575" width="42">Instru&#231;&#245;es</text>
-    <text font="0" height="8" left="38" top="547" width="56">Uso do banco</text>
-    <text font="0" height="8" left="169" top="547" width="32">Carteira</text>
-    <text font="0" height="8" left="254" top="547" width="32">Esp&#233;cie</text>
-    <text font="0" height="8" left="339" top="547" width="47">Quantidade</text>
-    <text font="0" height="8" left="509" top="547" width="21">Valor</text>
-    <text font="0" height="8" left="658" top="547" width="82">(=) Valor documento</text>
-    <text font="1" height="12" left="169" top="558" width="23">109</text>
-    <text font="1" height="12" left="254" top="558" width="17">R$</text>
-    <text font="1" height="12" left="806" top="558" width="34">29,80</text>
-    <text font="0" height="8" left="38" top="520" width="79">Data do documento</text>
-    <text font="0" height="8" left="169" top="520" width="69">N. do documento</text>
-    <text font="0" height="8" left="339" top="520" width="49">Esp&#233;cie doc</text>
-    <text font="0" height="8" left="424" top="520" width="25">Aceite</text>
-    <text font="0" height="8" left="509" top="520" width="83">Data processamento</text>
-    <text font="0" height="8" left="658" top="520" width="59">Nosso n&#250;mero</text>
-    <text font="1" height="12" left="38" top="530" width="68">19/10/2009</text>
-    <text font="1" height="12" left="169" top="530" width="23">456</text>
-    <text font="1" height="12" left="339" top="530" width="21">DM</text>
-    <text font="1" height="12" left="424" top="530" width="10">N</text>
-    <text font="1" height="12" left="509" top="530" width="68">19/10/2009</text>
-    <text font="1" height="12" left="742" top="530" width="98">109/00000157-1</text>
-    <text font="0" height="8" left="38" top="477" width="47">Benefici&#225;rio</text>
-    <text font="0" height="8" left="658" top="477" width="112">Ag&#234;ncia/C&#243;digo benefici&#225;rio</text>
-    <text font="1" height="12" left="38" top="488" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="38" top="503" width="48"> -  -  -  - </text>
-    <text font="1" height="12" left="757" top="503" width="83">0293/01328-1</text>
-    <text font="0" height="8" left="38" top="449" width="82">Local de pagamento</text>
-    <text font="0" height="8" left="658" top="449" width="48">Vencimento</text>
-    <text font="1" height="12" left="38" top="460" width="495">At&#233; o vencimento, preferencialmente no Ita&#250;. Ap&#243;s o vencimento, somente no Ita&#250; </text>
-    <text font="1" height="12" left="773" top="460" width="68">19/10/2009</text>
-    <text font="2" height="25" left="216" top="420" width="69">
+  <page number="1" position="absolute" top="0" left="0" height="892" width="1262">
+    <fontspec id="0" size="9" family="Helvetica" color="#000000" />
+    <fontspec id="1" size="14" family="Helvetica" color="#000000" />
+    <fontspec id="2" size="27" family="Helvetica" color="#000000" />
+    <fontspec id="3" size="17" family="Helvetica" color="#000000" />
+    <text top="770" left="651" width="196" height="8" font="0">Autentica&#231;&#227;o Mec&#226;nica / Ficha de Compensa&#231;&#227;o</text>
+    <text top="755" left="658" width="65" height="8" font="0">C&#243;digo de baixa</text>
+    <text top="755" left="38" width="73" height="8" font="0">Sacador / Avalista</text>
+    <text top="713" left="38" width="34" height="8" font="0">Pagador</text>
+    <text top="714" left="102" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="744" left="102" width="36" height="12" font="1"> -  -  - </text>
+    <text top="685" left="658" width="70" height="8" font="0">(=) Valor cobrado</text>
+    <text top="658" left="658" width="89" height="8" font="0">(+) Outros acr&#233;scimos</text>
+    <text top="630" left="658" width="59" height="8" font="0">(+) Mora/Multa</text>
+    <text top="603" left="658" width="80" height="8" font="0">(-) Outras dedu&#231;&#245;es</text>
+    <text top="575" left="658" width="107" height="8" font="0">(-) Descontos/Abatimentos</text>
+    <text top="575" left="38" width="42" height="8" font="0">Instru&#231;&#245;es</text>
+    <text top="547" left="38" width="56" height="8" font="0">Uso do banco</text>
+    <text top="547" left="169" width="32" height="8" font="0">Carteira</text>
+    <text top="547" left="254" width="32" height="8" font="0">Esp&#233;cie</text>
+    <text top="547" left="339" width="47" height="8" font="0">Quantidade</text>
+    <text top="547" left="509" width="21" height="8" font="0">Valor</text>
+    <text top="547" left="658" width="82" height="8" font="0">(=) Valor documento</text>
+    <text top="558" left="169" width="23" height="12" font="1">109</text>
+    <text top="558" left="254" width="17" height="12" font="1">R$</text>
+    <text top="558" left="806" width="34" height="12" font="1">29,80</text>
+    <text top="520" left="38" width="79" height="8" font="0">Data do documento</text>
+    <text top="520" left="169" width="69" height="8" font="0">N. do documento</text>
+    <text top="520" left="339" width="49" height="8" font="0">Esp&#233;cie doc</text>
+    <text top="520" left="424" width="25" height="8" font="0">Aceite</text>
+    <text top="520" left="509" width="83" height="8" font="0">Data processamento</text>
+    <text top="520" left="658" width="59" height="8" font="0">Nosso n&#250;mero</text>
+    <text top="530" left="38" width="68" height="12" font="1">19/10/2009</text>
+    <text top="530" left="169" width="23" height="12" font="1">456</text>
+    <text top="530" left="339" width="21" height="12" font="1">DM</text>
+    <text top="530" left="424" width="10" height="12" font="1">N</text>
+    <text top="530" left="509" width="68" height="12" font="1">19/10/2009</text>
+    <text top="530" left="742" width="98" height="12" font="1">109/00000157-1</text>
+    <text top="477" left="38" width="47" height="8" font="0">Benefici&#225;rio</text>
+    <text top="477" left="658" width="112" height="8" font="0">Ag&#234;ncia/C&#243;digo benefici&#225;rio</text>
+    <text top="488" left="38" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="503" left="38" width="48" height="12" font="1"> -  -  -  - </text>
+    <text top="503" left="757" width="83" height="12" font="1">0293/01328-1</text>
+    <text top="449" left="38" width="82" height="8" font="0">Local de pagamento</text>
+    <text top="449" left="658" width="48" height="8" font="0">Vencimento</text>
+    <text top="460" left="38" width="495" height="12" font="1">At&#233; o vencimento, preferencialmente no Ita&#250;. Ap&#243;s o vencimento, somente no Ita&#250; </text>
+    <text top="460" left="773" width="68" height="12" font="1">19/10/2009</text>
+    <text top="420" left="216" width="69" height="25" font="2">
       <b>341-7</b>
     </text>
-    <text font="3" height="16" left="362" top="427" width="484">
+    <text top="427" left="362" width="484" height="16" font="3">
       <b>34191.09008 00015.710296 30132.810000 4 43950000002980</b>
     </text>
-    <text font="2" height="25" left="216" top="-239" width="69">
+    <text top="-239" left="216" width="69" height="25" font="2">
       <b>341-7</b>
     </text>
-    <text font="3" height="16" left="689" top="-232" width="157">
+    <text top="-232" left="689" width="157" height="16" font="3">
       <b>Recibo do Pagador</b>
     </text>
-    <text font="0" height="8" left="753" top="247" width="93">Autentica&#231;&#227;o Mec&#226;nica</text>
-    <text font="0" height="8" left="38" top="-211" width="47">Benefici&#225;rio</text>
-    <text font="0" height="8" left="403" top="-211" width="113">Ag&#234;ncia/C&#243;digo Benefici&#225;rio</text>
-    <text font="0" height="8" left="573" top="-211" width="94">CPF/CNPJ Benefici&#225;rio</text>
-    <text font="0" height="8" left="722" top="-211" width="48">Vencimento</text>
-    <text font="0" height="8" left="38" top="-183" width="34">Pagador</text>
-    <text font="0" height="8" left="403" top="-183" width="60">Nosso N&#250;mero</text>
-    <text font="0" height="8" left="573" top="-183" width="69">N. do documento</text>
-    <text font="0" height="8" left="722" top="-183" width="68">Data Documento</text>
-    <text font="0" height="8" left="38" top="-156" width="88">Endere&#231;o Benefici&#225;rio</text>
-    <text font="0" height="8" left="722" top="-156" width="70">Valor Documento</text>
-    <text font="0" height="8" left="38" top="-28" width="58">Demonstrativo</text>
-    <text font="1" height="12" left="403" top="-200" width="83">0293/01328-1</text>
-    <text font="1" height="12" left="722" top="-200" width="68">19/10/2009</text>
-    <text font="1" height="12" left="41" top="-172" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="403" top="-172" width="98">109/00000157-1</text>
-    <text font="1" height="12" left="573" top="-172" width="23">456</text>
-    <text font="1" height="12" left="722" top="-172" width="68">19/10/2009</text>
-    <text font="1" height="12" left="41" top="-145" width="48"> -  -  -  - </text>
-    <text font="1" height="12" left="722" top="-145" width="34">29,80</text>
+    <text top="247" left="753" width="93" height="8" font="0">Autentica&#231;&#227;o Mec&#226;nica</text>
+    <text top="-211" left="38" width="47" height="8" font="0">Benefici&#225;rio</text>
+    <text top="-211" left="403" width="113" height="8" font="0">Ag&#234;ncia/C&#243;digo Benefici&#225;rio</text>
+    <text top="-211" left="573" width="94" height="8" font="0">CPF/CNPJ Benefici&#225;rio</text>
+    <text top="-211" left="722" width="48" height="8" font="0">Vencimento</text>
+    <text top="-183" left="38" width="34" height="8" font="0">Pagador</text>
+    <text top="-183" left="403" width="60" height="8" font="0">Nosso N&#250;mero</text>
+    <text top="-183" left="573" width="69" height="8" font="0">N. do documento</text>
+    <text top="-183" left="722" width="68" height="8" font="0">Data Documento</text>
+    <text top="-156" left="38" width="88" height="8" font="0">Endere&#231;o Benefici&#225;rio</text>
+    <text top="-156" left="722" width="70" height="8" font="0">Valor Documento</text>
+    <text top="-28" left="38" width="58" height="8" font="0">Demonstrativo</text>
+    <text top="-200" left="403" width="83" height="12" font="1">0293/01328-1</text>
+    <text top="-200" left="722" width="68" height="12" font="1">19/10/2009</text>
+    <text top="-172" left="41" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="-172" left="403" width="98" height="12" font="1">109/00000157-1</text>
+    <text top="-172" left="573" width="23" height="12" font="1">456</text>
+    <text top="-172" left="722" width="68" height="12" font="1">19/10/2009</text>
+    <text top="-145" left="41" width="48" height="12" font="1"> -  -  -  - </text>
+    <text top="-145" left="722" width="34" height="12" font="1">29,80</text>
   </page>
-  <page height="892" left="0" number="2" position="absolute" top="0" width="1262">
-    <text font="0" height="8" left="651" top="770" width="196">Autentica&#231;&#227;o Mec&#226;nica / Ficha de Compensa&#231;&#227;o</text>
-    <text font="0" height="8" left="658" top="755" width="65">C&#243;digo de baixa</text>
-    <text font="0" height="8" left="38" top="755" width="73">Sacador / Avalista</text>
-    <text font="0" height="8" left="38" top="713" width="34">Pagador</text>
-    <text font="1" height="12" left="102" top="714" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="102" top="744" width="36"> -  -  - </text>
-    <text font="0" height="8" left="658" top="685" width="70">(=) Valor cobrado</text>
-    <text font="0" height="8" left="658" top="658" width="89">(+) Outros acr&#233;scimos</text>
-    <text font="0" height="8" left="658" top="630" width="59">(+) Mora/Multa</text>
-    <text font="0" height="8" left="658" top="603" width="80">(-) Outras dedu&#231;&#245;es</text>
-    <text font="0" height="8" left="658" top="575" width="107">(-) Descontos/Abatimentos</text>
-    <text font="0" height="8" left="38" top="575" width="42">Instru&#231;&#245;es</text>
-    <text font="0" height="8" left="38" top="547" width="56">Uso do banco</text>
-    <text font="0" height="8" left="169" top="547" width="32">Carteira</text>
-    <text font="0" height="8" left="254" top="547" width="32">Esp&#233;cie</text>
-    <text font="0" height="8" left="339" top="547" width="47">Quantidade</text>
-    <text font="0" height="8" left="509" top="547" width="21">Valor</text>
-    <text font="0" height="8" left="658" top="547" width="82">(=) Valor documento</text>
-    <text font="1" height="12" left="169" top="558" width="23">109</text>
-    <text font="1" height="12" left="254" top="558" width="17">R$</text>
-    <text font="1" height="12" left="806" top="558" width="34">29,80</text>
-    <text font="0" height="8" left="38" top="520" width="79">Data do documento</text>
-    <text font="0" height="8" left="169" top="520" width="69">N. do documento</text>
-    <text font="0" height="8" left="339" top="520" width="49">Esp&#233;cie doc</text>
-    <text font="0" height="8" left="424" top="520" width="25">Aceite</text>
-    <text font="0" height="8" left="509" top="520" width="83">Data processamento</text>
-    <text font="0" height="8" left="658" top="520" width="59">Nosso n&#250;mero</text>
-    <text font="1" height="12" left="38" top="530" width="68">19/10/2009</text>
-    <text font="1" height="12" left="169" top="530" width="23">457</text>
-    <text font="1" height="12" left="339" top="530" width="21">DM</text>
-    <text font="1" height="12" left="424" top="530" width="10">N</text>
-    <text font="1" height="12" left="509" top="530" width="68">19/10/2009</text>
-    <text font="1" height="12" left="742" top="530" width="98">109/00000158-9</text>
-    <text font="0" height="8" left="38" top="477" width="47">Benefici&#225;rio</text>
-    <text font="0" height="8" left="658" top="477" width="112">Ag&#234;ncia/C&#243;digo benefici&#225;rio</text>
-    <text font="1" height="12" left="38" top="488" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="38" top="503" width="48"> -  -  -  - </text>
-    <text font="1" height="12" left="757" top="503" width="83">0293/01328-1</text>
-    <text font="0" height="8" left="38" top="449" width="82">Local de pagamento</text>
-    <text font="0" height="8" left="658" top="449" width="48">Vencimento</text>
-    <text font="1" height="12" left="38" top="460" width="495">At&#233; o vencimento, preferencialmente no Ita&#250;. Ap&#243;s o vencimento, somente no Ita&#250; </text>
-    <text font="1" height="12" left="773" top="460" width="68">19/10/2009</text>
-    <text font="2" height="25" left="216" top="420" width="69">
+  <page number="2" position="absolute" top="0" left="0" height="892" width="1262">
+    <text top="770" left="651" width="196" height="8" font="0">Autentica&#231;&#227;o Mec&#226;nica / Ficha de Compensa&#231;&#227;o</text>
+    <text top="755" left="658" width="65" height="8" font="0">C&#243;digo de baixa</text>
+    <text top="755" left="38" width="73" height="8" font="0">Sacador / Avalista</text>
+    <text top="713" left="38" width="34" height="8" font="0">Pagador</text>
+    <text top="714" left="102" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="744" left="102" width="36" height="12" font="1"> -  -  - </text>
+    <text top="685" left="658" width="70" height="8" font="0">(=) Valor cobrado</text>
+    <text top="658" left="658" width="89" height="8" font="0">(+) Outros acr&#233;scimos</text>
+    <text top="630" left="658" width="59" height="8" font="0">(+) Mora/Multa</text>
+    <text top="603" left="658" width="80" height="8" font="0">(-) Outras dedu&#231;&#245;es</text>
+    <text top="575" left="658" width="107" height="8" font="0">(-) Descontos/Abatimentos</text>
+    <text top="575" left="38" width="42" height="8" font="0">Instru&#231;&#245;es</text>
+    <text top="547" left="38" width="56" height="8" font="0">Uso do banco</text>
+    <text top="547" left="169" width="32" height="8" font="0">Carteira</text>
+    <text top="547" left="254" width="32" height="8" font="0">Esp&#233;cie</text>
+    <text top="547" left="339" width="47" height="8" font="0">Quantidade</text>
+    <text top="547" left="509" width="21" height="8" font="0">Valor</text>
+    <text top="547" left="658" width="82" height="8" font="0">(=) Valor documento</text>
+    <text top="558" left="169" width="23" height="12" font="1">109</text>
+    <text top="558" left="254" width="17" height="12" font="1">R$</text>
+    <text top="558" left="806" width="34" height="12" font="1">29,80</text>
+    <text top="520" left="38" width="79" height="8" font="0">Data do documento</text>
+    <text top="520" left="169" width="69" height="8" font="0">N. do documento</text>
+    <text top="520" left="339" width="49" height="8" font="0">Esp&#233;cie doc</text>
+    <text top="520" left="424" width="25" height="8" font="0">Aceite</text>
+    <text top="520" left="509" width="83" height="8" font="0">Data processamento</text>
+    <text top="520" left="658" width="59" height="8" font="0">Nosso n&#250;mero</text>
+    <text top="530" left="38" width="68" height="12" font="1">19/10/2009</text>
+    <text top="530" left="169" width="23" height="12" font="1">457</text>
+    <text top="530" left="339" width="21" height="12" font="1">DM</text>
+    <text top="530" left="424" width="10" height="12" font="1">N</text>
+    <text top="530" left="509" width="68" height="12" font="1">19/10/2009</text>
+    <text top="530" left="742" width="98" height="12" font="1">109/00000158-9</text>
+    <text top="477" left="38" width="47" height="8" font="0">Benefici&#225;rio</text>
+    <text top="477" left="658" width="112" height="8" font="0">Ag&#234;ncia/C&#243;digo benefici&#225;rio</text>
+    <text top="488" left="38" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="503" left="38" width="48" height="12" font="1"> -  -  -  - </text>
+    <text top="503" left="757" width="83" height="12" font="1">0293/01328-1</text>
+    <text top="449" left="38" width="82" height="8" font="0">Local de pagamento</text>
+    <text top="449" left="658" width="48" height="8" font="0">Vencimento</text>
+    <text top="460" left="38" width="495" height="12" font="1">At&#233; o vencimento, preferencialmente no Ita&#250;. Ap&#243;s o vencimento, somente no Ita&#250; </text>
+    <text top="460" left="773" width="68" height="12" font="1">19/10/2009</text>
+    <text top="420" left="216" width="69" height="25" font="2">
       <b>341-7</b>
     </text>
-    <text font="3" height="16" left="362" top="427" width="484">
+    <text top="427" left="362" width="484" height="16" font="3">
       <b>34191.09008 00015.890296 30132.810000 6 43950000002980</b>
     </text>
-    <text font="2" height="25" left="216" top="-239" width="69">
+    <text top="-239" left="216" width="69" height="25" font="2">
       <b>341-7</b>
     </text>
-    <text font="3" height="16" left="689" top="-232" width="157">
+    <text top="-232" left="689" width="157" height="16" font="3">
       <b>Recibo do Pagador</b>
     </text>
-    <text font="0" height="8" left="753" top="247" width="93">Autentica&#231;&#227;o Mec&#226;nica</text>
-    <text font="0" height="8" left="38" top="-211" width="47">Benefici&#225;rio</text>
-    <text font="0" height="8" left="403" top="-211" width="113">Ag&#234;ncia/C&#243;digo Benefici&#225;rio</text>
-    <text font="0" height="8" left="573" top="-211" width="94">CPF/CNPJ Benefici&#225;rio</text>
-    <text font="0" height="8" left="722" top="-211" width="48">Vencimento</text>
-    <text font="0" height="8" left="38" top="-183" width="34">Pagador</text>
-    <text font="0" height="8" left="403" top="-183" width="60">Nosso N&#250;mero</text>
-    <text font="0" height="8" left="573" top="-183" width="69">N. do documento</text>
-    <text font="0" height="8" left="722" top="-183" width="68">Data Documento</text>
-    <text font="0" height="8" left="38" top="-156" width="88">Endere&#231;o Benefici&#225;rio</text>
-    <text font="0" height="8" left="722" top="-156" width="70">Valor Documento</text>
-    <text font="0" height="8" left="38" top="-28" width="58">Demonstrativo</text>
-    <text font="1" height="12" left="403" top="-200" width="83">0293/01328-1</text>
-    <text font="1" height="12" left="722" top="-200" width="68">19/10/2009</text>
-    <text font="1" height="12" left="41" top="-172" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="403" top="-172" width="98">109/00000158-9</text>
-    <text font="1" height="12" left="573" top="-172" width="23">457</text>
-    <text font="1" height="12" left="722" top="-172" width="68">19/10/2009</text>
-    <text font="1" height="12" left="41" top="-145" width="48"> -  -  -  - </text>
-    <text font="1" height="12" left="722" top="-145" width="34">29,80</text>
+    <text top="247" left="753" width="93" height="8" font="0">Autentica&#231;&#227;o Mec&#226;nica</text>
+    <text top="-211" left="38" width="47" height="8" font="0">Benefici&#225;rio</text>
+    <text top="-211" left="403" width="113" height="8" font="0">Ag&#234;ncia/C&#243;digo Benefici&#225;rio</text>
+    <text top="-211" left="573" width="94" height="8" font="0">CPF/CNPJ Benefici&#225;rio</text>
+    <text top="-211" left="722" width="48" height="8" font="0">Vencimento</text>
+    <text top="-183" left="38" width="34" height="8" font="0">Pagador</text>
+    <text top="-183" left="403" width="60" height="8" font="0">Nosso N&#250;mero</text>
+    <text top="-183" left="573" width="69" height="8" font="0">N. do documento</text>
+    <text top="-183" left="722" width="68" height="8" font="0">Data Documento</text>
+    <text top="-156" left="38" width="88" height="8" font="0">Endere&#231;o Benefici&#225;rio</text>
+    <text top="-156" left="722" width="70" height="8" font="0">Valor Documento</text>
+    <text top="-28" left="38" width="58" height="8" font="0">Demonstrativo</text>
+    <text top="-200" left="403" width="83" height="12" font="1">0293/01328-1</text>
+    <text top="-200" left="722" width="68" height="12" font="1">19/10/2009</text>
+    <text top="-172" left="41" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="-172" left="403" width="98" height="12" font="1">109/00000158-9</text>
+    <text top="-172" left="573" width="23" height="12" font="1">457</text>
+    <text top="-172" left="722" width="68" height="12" font="1">19/10/2009</text>
+    <text top="-145" left="41" width="48" height="12" font="1"> -  -  -  - </text>
+    <text top="-145" left="722" width="34" height="12" font="1">29,80</text>
   </page>
-  <page height="892" left="0" number="3" position="absolute" top="0" width="1262">
-    <text font="0" height="8" left="651" top="770" width="196">Autentica&#231;&#227;o Mec&#226;nica / Ficha de Compensa&#231;&#227;o</text>
-    <text font="0" height="8" left="658" top="755" width="65">C&#243;digo de baixa</text>
-    <text font="0" height="8" left="38" top="755" width="73">Sacador / Avalista</text>
-    <text font="0" height="8" left="38" top="713" width="34">Pagador</text>
-    <text font="1" height="12" left="102" top="714" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="102" top="744" width="36"> -  -  - </text>
-    <text font="0" height="8" left="658" top="685" width="70">(=) Valor cobrado</text>
-    <text font="0" height="8" left="658" top="658" width="89">(+) Outros acr&#233;scimos</text>
-    <text font="0" height="8" left="658" top="630" width="59">(+) Mora/Multa</text>
-    <text font="0" height="8" left="658" top="603" width="80">(-) Outras dedu&#231;&#245;es</text>
-    <text font="0" height="8" left="658" top="575" width="107">(-) Descontos/Abatimentos</text>
-    <text font="0" height="8" left="38" top="575" width="42">Instru&#231;&#245;es</text>
-    <text font="0" height="8" left="38" top="547" width="56">Uso do banco</text>
-    <text font="0" height="8" left="169" top="547" width="32">Carteira</text>
-    <text font="0" height="8" left="254" top="547" width="32">Esp&#233;cie</text>
-    <text font="0" height="8" left="339" top="547" width="47">Quantidade</text>
-    <text font="0" height="8" left="509" top="547" width="21">Valor</text>
-    <text font="0" height="8" left="658" top="547" width="82">(=) Valor documento</text>
-    <text font="1" height="12" left="169" top="558" width="23">109</text>
-    <text font="1" height="12" left="254" top="558" width="17">R$</text>
-    <text font="1" height="12" left="806" top="558" width="34">29,80</text>
-    <text font="0" height="8" left="38" top="520" width="79">Data do documento</text>
-    <text font="0" height="8" left="169" top="520" width="69">N. do documento</text>
-    <text font="0" height="8" left="339" top="520" width="49">Esp&#233;cie doc</text>
-    <text font="0" height="8" left="424" top="520" width="25">Aceite</text>
-    <text font="0" height="8" left="509" top="520" width="83">Data processamento</text>
-    <text font="0" height="8" left="658" top="520" width="59">Nosso n&#250;mero</text>
-    <text font="1" height="12" left="38" top="530" width="68">19/10/2009</text>
-    <text font="1" height="12" left="169" top="530" width="23">458</text>
-    <text font="1" height="12" left="339" top="530" width="21">DM</text>
-    <text font="1" height="12" left="424" top="530" width="10">N</text>
-    <text font="1" height="12" left="509" top="530" width="68">19/10/2009</text>
-    <text font="1" height="12" left="742" top="530" width="98">109/00000159-7</text>
-    <text font="0" height="8" left="38" top="477" width="47">Benefici&#225;rio</text>
-    <text font="0" height="8" left="658" top="477" width="112">Ag&#234;ncia/C&#243;digo benefici&#225;rio</text>
-    <text font="1" height="12" left="38" top="488" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="38" top="503" width="48"> -  -  -  - </text>
-    <text font="1" height="12" left="757" top="503" width="83">0293/01328-1</text>
-    <text font="0" height="8" left="38" top="449" width="82">Local de pagamento</text>
-    <text font="0" height="8" left="658" top="449" width="48">Vencimento</text>
-    <text font="1" height="12" left="38" top="460" width="495">At&#233; o vencimento, preferencialmente no Ita&#250;. Ap&#243;s o vencimento, somente no Ita&#250; </text>
-    <text font="1" height="12" left="773" top="460" width="68">19/10/2009</text>
-    <text font="2" height="25" left="216" top="420" width="69">
+  <page number="3" position="absolute" top="0" left="0" height="892" width="1262">
+    <text top="770" left="651" width="196" height="8" font="0">Autentica&#231;&#227;o Mec&#226;nica / Ficha de Compensa&#231;&#227;o</text>
+    <text top="755" left="658" width="65" height="8" font="0">C&#243;digo de baixa</text>
+    <text top="755" left="38" width="73" height="8" font="0">Sacador / Avalista</text>
+    <text top="713" left="38" width="34" height="8" font="0">Pagador</text>
+    <text top="714" left="102" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="744" left="102" width="36" height="12" font="1"> -  -  - </text>
+    <text top="685" left="658" width="70" height="8" font="0">(=) Valor cobrado</text>
+    <text top="658" left="658" width="89" height="8" font="0">(+) Outros acr&#233;scimos</text>
+    <text top="630" left="658" width="59" height="8" font="0">(+) Mora/Multa</text>
+    <text top="603" left="658" width="80" height="8" font="0">(-) Outras dedu&#231;&#245;es</text>
+    <text top="575" left="658" width="107" height="8" font="0">(-) Descontos/Abatimentos</text>
+    <text top="575" left="38" width="42" height="8" font="0">Instru&#231;&#245;es</text>
+    <text top="547" left="38" width="56" height="8" font="0">Uso do banco</text>
+    <text top="547" left="169" width="32" height="8" font="0">Carteira</text>
+    <text top="547" left="254" width="32" height="8" font="0">Esp&#233;cie</text>
+    <text top="547" left="339" width="47" height="8" font="0">Quantidade</text>
+    <text top="547" left="509" width="21" height="8" font="0">Valor</text>
+    <text top="547" left="658" width="82" height="8" font="0">(=) Valor documento</text>
+    <text top="558" left="169" width="23" height="12" font="1">109</text>
+    <text top="558" left="254" width="17" height="12" font="1">R$</text>
+    <text top="558" left="806" width="34" height="12" font="1">29,80</text>
+    <text top="520" left="38" width="79" height="8" font="0">Data do documento</text>
+    <text top="520" left="169" width="69" height="8" font="0">N. do documento</text>
+    <text top="520" left="339" width="49" height="8" font="0">Esp&#233;cie doc</text>
+    <text top="520" left="424" width="25" height="8" font="0">Aceite</text>
+    <text top="520" left="509" width="83" height="8" font="0">Data processamento</text>
+    <text top="520" left="658" width="59" height="8" font="0">Nosso n&#250;mero</text>
+    <text top="530" left="38" width="68" height="12" font="1">19/10/2009</text>
+    <text top="530" left="169" width="23" height="12" font="1">458</text>
+    <text top="530" left="339" width="21" height="12" font="1">DM</text>
+    <text top="530" left="424" width="10" height="12" font="1">N</text>
+    <text top="530" left="509" width="68" height="12" font="1">19/10/2009</text>
+    <text top="530" left="742" width="98" height="12" font="1">109/00000159-7</text>
+    <text top="477" left="38" width="47" height="8" font="0">Benefici&#225;rio</text>
+    <text top="477" left="658" width="112" height="8" font="0">Ag&#234;ncia/C&#243;digo benefici&#225;rio</text>
+    <text top="488" left="38" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="503" left="38" width="48" height="12" font="1"> -  -  -  - </text>
+    <text top="503" left="757" width="83" height="12" font="1">0293/01328-1</text>
+    <text top="449" left="38" width="82" height="8" font="0">Local de pagamento</text>
+    <text top="449" left="658" width="48" height="8" font="0">Vencimento</text>
+    <text top="460" left="38" width="495" height="12" font="1">At&#233; o vencimento, preferencialmente no Ita&#250;. Ap&#243;s o vencimento, somente no Ita&#250; </text>
+    <text top="460" left="773" width="68" height="12" font="1">19/10/2009</text>
+    <text top="420" left="216" width="69" height="25" font="2">
       <b>341-7</b>
     </text>
-    <text font="3" height="16" left="362" top="427" width="484">
+    <text top="427" left="362" width="484" height="16" font="3">
       <b>34191.09008 00015.970296 30132.810000 1 43950000002980</b>
     </text>
-    <text font="2" height="25" left="216" top="-239" width="69">
+    <text top="-239" left="216" width="69" height="25" font="2">
       <b>341-7</b>
     </text>
-    <text font="3" height="16" left="689" top="-232" width="157">
+    <text top="-232" left="689" width="157" height="16" font="3">
       <b>Recibo do Pagador</b>
     </text>
-    <text font="0" height="8" left="753" top="247" width="93">Autentica&#231;&#227;o Mec&#226;nica</text>
-    <text font="0" height="8" left="38" top="-211" width="47">Benefici&#225;rio</text>
-    <text font="0" height="8" left="403" top="-211" width="113">Ag&#234;ncia/C&#243;digo Benefici&#225;rio</text>
-    <text font="0" height="8" left="573" top="-211" width="94">CPF/CNPJ Benefici&#225;rio</text>
-    <text font="0" height="8" left="722" top="-211" width="48">Vencimento</text>
-    <text font="0" height="8" left="38" top="-183" width="34">Pagador</text>
-    <text font="0" height="8" left="403" top="-183" width="60">Nosso N&#250;mero</text>
-    <text font="0" height="8" left="573" top="-183" width="69">N. do documento</text>
-    <text font="0" height="8" left="722" top="-183" width="68">Data Documento</text>
-    <text font="0" height="8" left="38" top="-156" width="88">Endere&#231;o Benefici&#225;rio</text>
-    <text font="0" height="8" left="722" top="-156" width="70">Valor Documento</text>
-    <text font="0" height="8" left="38" top="-28" width="58">Demonstrativo</text>
-    <text font="1" height="12" left="403" top="-200" width="83">0293/01328-1</text>
-    <text font="1" height="12" left="722" top="-200" width="68">19/10/2009</text>
-    <text font="1" height="12" left="41" top="-172" width="86"> - CPF/CNPJ: </text>
-    <text font="1" height="12" left="403" top="-172" width="98">109/00000159-7</text>
-    <text font="1" height="12" left="573" top="-172" width="23">458</text>
-    <text font="1" height="12" left="722" top="-172" width="68">19/10/2009</text>
-    <text font="1" height="12" left="41" top="-145" width="48"> -  -  -  - </text>
-    <text font="1" height="12" left="722" top="-145" width="34">29,80</text>
+    <text top="247" left="753" width="93" height="8" font="0">Autentica&#231;&#227;o Mec&#226;nica</text>
+    <text top="-211" left="38" width="47" height="8" font="0">Benefici&#225;rio</text>
+    <text top="-211" left="403" width="113" height="8" font="0">Ag&#234;ncia/C&#243;digo Benefici&#225;rio</text>
+    <text top="-211" left="573" width="94" height="8" font="0">CPF/CNPJ Benefici&#225;rio</text>
+    <text top="-211" left="722" width="48" height="8" font="0">Vencimento</text>
+    <text top="-183" left="38" width="34" height="8" font="0">Pagador</text>
+    <text top="-183" left="403" width="60" height="8" font="0">Nosso N&#250;mero</text>
+    <text top="-183" left="573" width="69" height="8" font="0">N. do documento</text>
+    <text top="-183" left="722" width="68" height="8" font="0">Data Documento</text>
+    <text top="-156" left="38" width="88" height="8" font="0">Endere&#231;o Benefici&#225;rio</text>
+    <text top="-156" left="722" width="70" height="8" font="0">Valor Documento</text>
+    <text top="-28" left="38" width="58" height="8" font="0">Demonstrativo</text>
+    <text top="-200" left="403" width="83" height="12" font="1">0293/01328-1</text>
+    <text top="-200" left="722" width="68" height="12" font="1">19/10/2009</text>
+    <text top="-172" left="41" width="86" height="12" font="1"> - CPF/CNPJ: </text>
+    <text top="-172" left="403" width="98" height="12" font="1">109/00000159-7</text>
+    <text top="-172" left="573" width="23" height="12" font="1">458</text>
+    <text top="-172" left="722" width="68" height="12" font="1">19/10/2009</text>
+    <text top="-145" left="41" width="48" height="12" font="1"> -  -  -  - </text>
+    <text top="-145" left="722" width="34" height="12" font="1">29,80</text>
   </page>
 </pdf2xml>

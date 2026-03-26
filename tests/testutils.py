@@ -153,7 +153,7 @@ class BoletoTestCase(unittest.TestCase):
             os.path.dirname(pyboleto.__file__),
             "..", "tests", f_type, bank + '-expected.' + f_type)
         if not os.path.exists(fname):
-            with open(fname, 'wb') as f:
+            with open(fname, 'w') as f:
                 with open(generated) as g:
                     f.write(g.read())
         return fname

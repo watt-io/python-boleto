@@ -45,6 +45,7 @@
         .w {border-left: 3px solid}
         .n, .w {border-color: #000}
         .s {border-color: #fff}
+        .qrcode {width:80px;height:80px}
         /* @media print{ .pagina {page-break-after:always} } */
       </style>
     </head>
@@ -188,14 +189,17 @@
         </td>
       </tr>
       <tr>
-        <td colspan="6" rowspan="5" class="linha-grossa">
+        <td colspan="5" rowspan="5" class="linha-grossa">
           <div class="rotulo">Instruções
           (Todas as informações deste bloqueto são de exclusiva
            responsabilidade do cedente)</div>
            <div class="instrucoes-content"></div>
         </td>
+        <td rowspan="5" class="linha-grossa" style="text-align:center;vertical-align:middle;border-right:1px solid #000;">
+          
+        </td>
         <td>
-          <div class="rotulo">(-) Descontos/Abatimentos</div>
+          <div class="rotulo">(-) Descontos/Abatimentos</div> 
         </td>
       </tr>
       <tr>
@@ -215,7 +219,7 @@
       </tr>
       <tr>
         <td class="linha-grossa">
-          <div class="rotulo">(=) Valor cobrado</div>
+          <div class="rotulo">(=) Valor cobrado</div> 
         </td>
       </tr>
     </tbody>
