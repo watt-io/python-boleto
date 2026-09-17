@@ -11,6 +11,7 @@
 """
 import io
 import os
+import re
 
 import segno
 from reportlab.graphics.barcode.common import I2of5
@@ -20,6 +21,9 @@ from reportlab.lib.units import mm, cm
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen import canvas
+
+
+PADRAO_CEP = re.compile(r'\d{5}-?\d{3}')
 
 
 class BoletoPDF(object):
@@ -382,7 +386,9 @@ class BoletoPDF(object):
         self.pdf_canvas.drawString(
             0 + self.space,
             (((linha_inicial + 0) * self.height_line)) + self.space,
-            boleto_dados.cedente_endereco
+            self._truncar_preservando_cep(
+                boleto_dados.cedente_endereco,
+                self.width - (30 * mm) - self.space)
         )
         self.pdf_canvas.drawString(
             self.width - (30 * mm) + self.space,
@@ -718,8 +724,11 @@ class BoletoPDF(object):
         beneficiario = '{} - CPF/CNPJ: {}'.format(
             boleto_dados.cedente, boleto_dados.cedente_documento)
         self.pdf_canvas.drawString(0, y + self.space + 10, beneficiario)
-        self.pdf_canvas.drawString(0, y + self.space,
-                                   boleto_dados.cedente_endereco)
+        self.pdf_canvas.drawString(
+            0, y + self.space,
+            self._truncar_preservando_cep(
+                boleto_dados.cedente_endereco,
+                self.width - (45 * mm) - self.space))
         self.pdf_canvas.drawRightString(
             self.width - 2 * self.space,
             y + self.space,
@@ -876,6 +885,26 @@ class BoletoPDF(object):
 
     def __verticalLine(self, x, y, width):
         self.pdf_canvas.line(x, y, x, y + width)
+
+    def _truncar_preservando_cep(self, texto, largura_maxima):
+        nome_fonte = self.pdf_canvas._fontname
+        tamanho_fonte = self.pdf_canvas._fontsize
+        if stringWidth(texto, nome_fonte, tamanho_fonte) <= largura_maxima:
+            return texto
+
+        ceps_encontrados = list(PADRAO_CEP.finditer(texto))
+        if ceps_encontrados:
+            inicio_do_cep = ceps_encontrados[-1].start()
+            comeco = texto[:inicio_do_cep]
+            fim = '... ' + texto[inicio_do_cep:]
+        else:
+            comeco = texto
+            fim = '...'
+
+        while comeco and stringWidth(comeco + fim, nome_fonte,
+                                     tamanho_fonte) > largura_maxima:
+            comeco = comeco[:-1]
+        return comeco + fim
 
     def _formataValorParaExibir(self, nfloat):
         if nfloat:

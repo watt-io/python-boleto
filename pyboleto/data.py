@@ -20,6 +20,8 @@ class BoletoException(Exception):
 
 _EPOCH = datetime.date(1997, 10, 7)
 
+LIMITE_ENDERECO_CEDENTE = 150
+
 
 class CustomProperty(object):
     """Função para criar propriedades nos boletos
@@ -304,12 +306,13 @@ class BoletoData(object):
         return self._cedente_endereco
 
     def _cedente_endereco_set(self, endereco):
-        if len(endereco) > 80:
+        if len(endereco) > LIMITE_ENDERECO_CEDENTE:
             raise BoletoException(
-                'Linha de endereço possui mais que 80 caracteres')
+                'Linha de endereço possui mais que %d caracteres'
+                % LIMITE_ENDERECO_CEDENTE)
         self._cedente_endereco = endereco
     cedente_endereco = property(_cedente_endereco_get, _cedente_endereco_set)
-    """Endereço do Cedente com no máximo 80 caracteres"""
+    """Endereço do Cedente com no máximo 150 caracteres"""
 
     def _get_valor(self):
         if self._valor is not None:
